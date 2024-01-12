@@ -1,0 +1,149 @@
+:root {
+    --background-header: #673AB7
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 253, 253, 0.467);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+p,
+label {
+    color: #444;
+}
+
+input {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0px;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=file] {
+    background-color: #fff;
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+    width: 400px;
+
+}
+
+/* CABEÇALHO */
+
+.header {
+    height: 80px;
+    padding: 20px;
+    background-color: var(--background-header);
+}
+
+.header h3 {
+    color: #fff;
+    background-color: var(--background-header);
+    margin-top: 0;
+}
+
+/*CONTAINER DO FORM*/
+
+.form-container {
+    border: 1px solid rgb(185, 183, 183);
+    background-color: #FFF;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -40px;
+
+}
+
+/* CABEÇALHO DO FORM */
+
+.form-header {
+    text-align: center;
+    height: 45px;
+    border-bottom: 1px solid rgb(185, 183, 183);
+    ;
+}
+
+.form-header p {
+
+    color: var(--background-header);
+    border-bottom: 2px solid var(--background-header);
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+/* CORPO FORM */
+
+
+.form-body {
+    padding: 30px;
+}
+
+.form-body p {
+    margin-bottom: 10px;
+}
+
+.form-title {
+    margin-bottom: 10px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.optional-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.btn-submit {
+    background-color: var(--background-header);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: var(--background-header);
+    color: var(--background-header);
+}
